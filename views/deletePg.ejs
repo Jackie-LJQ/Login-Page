@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form id="form" method="POST" action="/delete">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" value="<%= userName %>">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="<%= password %>"> 
+        </div>
+        <div>
+            <button id="button" type="submit" >Delete Account</button>
+            <button id="Rbutton" type="submit" formmethod="GET" formaction="/login">LogOut</button>
+        </div>
+        <div id="message"><%= message %></div>
+    </form> 
+    
+</body>
+</html>

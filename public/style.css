@@ -1,0 +1,34 @@
+#error {
+    font-size: 15px;
+    color:red;
+    padding-top: 5px;
+    margin-left: 150px;
+}
+
+label {
+    display: inline-block;
+    padding-top: 5px;
+    width: 200px;
+    text-align: right;
+}
+
+#button {
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 120px;
+    text-align: center;
+}
+
+#Rbutton {
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#message {
+    font-size: 15px;
+    color:rgb(23, 143, 12);
+    padding-top: 5px;
+    margin-left: 150px;
+}
